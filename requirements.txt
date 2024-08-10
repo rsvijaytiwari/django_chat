@@ -5,3 +5,4 @@ django-filter==24.3
 pydantic==2.8.2
 channels[daphne]
 psycopg2==2.9.9
+django-pydantic-core==1.0.0
