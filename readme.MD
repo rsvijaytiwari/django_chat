@@ -19,7 +19,7 @@ export DEBUG='1'
 ```
 **ALLOWED_HOSTS**: It is string value of allowed hosts to use multiple hosts then use comma without without using spaces.
 ```bash
-export ALLOWED_HOSTS='0.0.0.0'
+export ALLOWED_HOSTS='0.0.0.0,localhost,localhost:9004,127.0.0.1:9004'
 ```
 **CORS_ALLOWED_ORIGINS**: It is string value of allowed cors origin (or cors configuration) to use multiple cors domain then use comma without without using spaces.
 ```bash
